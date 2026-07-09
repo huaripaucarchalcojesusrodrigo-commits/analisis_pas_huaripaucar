@@ -66,20 +66,27 @@ analisis_pas_huaripaucar/
 
 ## Scripts
 
+## Scripts
+
 ### 01_limpieza.R
 
-- Importa los datos.
+- Importa la base de datos.
 - Revisa valores perdidos.
-- Limpia la base de datos.
+- Limpia la información.
 - Guarda la base procesada.
+
+### 02_analisis_descriptivo.R
+
+- Calcula estadísticas descriptivas.
+- Genera tablas de frecuencias.
+- Crea histogramas y diagramas de caja.
+- Guarda tablas y figuras en la carpeta `outputs`.
 
 ### 03_modelo_regresion.R
 
 - Ajusta un modelo de regresión lineal.
-- Estima el efecto del tratamiento.
-- Exporta la tabla de coeficientes.
-
----
+- Evalúa el efecto del tratamiento A sobre la PAS.
+- Exporta la tabla de coeficientes del modelo.
 
 ## Resultados esperados
 
